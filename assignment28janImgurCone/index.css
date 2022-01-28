@@ -1,0 +1,85 @@
+body {
+  background-color: darkslategray;
+}
+.navmain {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZs38nGE92QwPJ28AaFnVInZD16jP_9sltA&usqp=CAU");
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#bt {
+  background-color: coral;
+  color: white;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+  vertical-align: middle;
+}
+#bt1 {
+  background-color: rgb(54, 57, 247);
+  color: white;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  vertical-align: middle;
+  height: 40px;
+}
+#mainser {
+  width: 700px;
+}
+#icon {
+  background-color: white;
+  color: coral;
+  margin-right: 10px;
+}
+#icon1 {
+  font-size: 25px;
+}
+#ser {
+  outline: none;
+  border: none;
+  width: 500px;
+  height: 40px;
+  background-color: #219f94;
+}
+::placeholder {
+  color: white;
+  font-size: 15px;
+}
+#searchbar {
+  /* border: 1px solid green; */
+  padding: 5px;
+}
+ion-icon {
+  color: white;
+}
+#root {
+  margin-top: 2%;
+  column-count: 4;
+}
+@media only screen and (max-width: 720px) {
+  #root {
+    column-count: 1;
+    margin-left: 40%;
+  }
+}
+.ptag {
+  color: white;
+  margin-left: 15px;
+  font-size: 15px;
+}
+.divine {
+  box-shadow: 0 8px 8px -4px black;
+}
